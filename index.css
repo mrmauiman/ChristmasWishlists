@@ -1,0 +1,50 @@
+:root {
+    --green: #165B33;
+    --light-green: #146B3A;
+    --yellow: #F8B229;
+    --orange: #EA4630;
+    --red: #BB252B;
+}
+
+body {
+    font-family: "Abril Fatface";
+    color: white !important;
+}
+
+.header {
+    background-color: var(--red);
+}
+
+.content {
+    background-color: var(--orange);
+    padding: 15px;
+}
+
+.list-group-item {
+    color: white;
+}
+
+.list-group-item:nth-child(even) {
+    background-color: var(--green);
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: var(--light-green);
+}
+
+.item-name {
+    font-size: 18pt;
+}
+
+.card {
+    background-color: var(--green);
+    margin-bottom: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+a:hover {
+    color: var(--red);
+}
